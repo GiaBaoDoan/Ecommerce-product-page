@@ -16,7 +16,7 @@ const Cart = ({
     setToCart(false);
   };
   return (
-    <div className="absolute max-sm:left-0 sm:w-[400px] sm:right-0 px-5 w-full top-24">
+    <div className="absolute max-sm:left-0 sm:w-[400px] z-10 sm:right-0 px-5 w-full top-24">
       <div className="bg-white shadow-lg rounded-lg">
         <h3 className="font-bold text-xl p-5">Cart</h3>
         <hr />
