@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+  max-width: 100%;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh+Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.max-width {
+  @apply px-5 lg:max-w-5xl lg:mx-auto xl:max-w-6xl 2xl:px-0;
+}
+
+h1 {
+  line-height: 1.2 !important;
+}
+
+p {
+  line-height: 1.8;
+}
+.active-link {
+  @apply hover:text-black pb-12  transition-all border-transparent hover:border-orange-400 border-b-[5px]  ;
+}
+button {
+  outline: none
+}
+
+.btn {
+    @apply  border-orange-500;
+}
+.overlay {
+  @apply bg-white top-0 left-0 w-full h-full bg-opacity-40 absolute
+}
